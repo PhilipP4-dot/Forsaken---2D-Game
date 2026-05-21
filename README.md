@@ -1,33 +1,61 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/TnmizVNm)
-# Final Projects
+# Forsaken
 
-This is the repository for your final projects. One team member should clone this repository, create a Unity project, move the gitignore into the project folder, and commit and push the project. 
+Forsaken is a 2D action-platformer prototype built in Unity. The project explores fast movement, combat, revival/checkpoint systems, and atmospheric presentation.
 
-Be proactive in communicating about who will work on which pieces of the project and when. Pull before making changes to make sure you are working with the most up to date version of the project. Push your changes each time you get a new feature working. Atlassian has a lot of useful guides about managing workflows on group projects with git (for example, [Comparing Git workflows: What you should know](https://www.atlassian.com/git/tutorials/comparing-workflows)).
+## Project Overview
 
-Your commit history should show incremental progress. As a group, you will be responsible for completing and submitting four progress reports over the course of the semester. Below is what is expected at each checkpoint:
-* Friday, 4/4, by 3:00 PM:
-  * `progress1.md` should be complete and submitted here.
-  * Every team member should have contributed toward the project, and project files should be up to date on github classroom.
-  * The project should be at least halfway to a minimum playable version.
-  * Team members should each individually complete team member evaluation form 2 on Canvas.
-* Monday, 4/14, by 3:00 PM:
-  * `progress2.md` should be complete and submitted here.
-  * Every team member should have contributed toward the project, and project files should be up to date on github classroom.
-  * The project should be ready for the in-class demo on 4/16 (give time to plan and practice your demos!)
-  * A web build should be included in the repository to use for your demo.
-  * Team members should each individually complete team member evaluation form 3 on Canvas.
-* Wednesday, 4/30, by 3:00 PM:
-  * `progress3.md` should be complete and submitted here.
-  * Every team member should have contributed toward the project, and project files should be up to date on github classroom.
-  * The project should be ready for the showcase on 5/1 (give time to plan for the showcase!)
-  * A web build should be included in the repository to use for your showcase.
-  * Team members should each individually complete team member evaluation form 4 on Canvas.
-* Monday, 5/5, by 3:00 PM:
-  * `progress4.md` should be complete and submitted here. This update should focus on insights gained from the showcase and planned changes for the final version of the project.
-  * Team members should each individually complete team member evaluation form 5 on Canvas.
-* Saturday, 5/10, by 4:00 PM:
-  * `report.md` should be complete and submitted here.
-  * Project files should be up to date.
-  * The final web build of your game should be submitted here.
-  * Team members should each individually complete team member evaluation form 6 on Canvas.
+- **Genre:** 2D action platformer
+- **Engine:** Unity `6000.0.44f1`
+- **Primary focus:** responsive movement, combat loops, enemy behaviors, and progression systems
+
+## Current Gameplay Scope
+
+- Player movement with platforming controls
+- Melee and ranged combat systems
+- Enemy AI behaviors
+- Checkpoints and respawn flow
+- Interactive loot/chest flow
+- Early UI and menu systems
+
+## Repository Structure
+
+```text
+.
+├── Forsaken/                 # Unity project root
+├── assets.md                 # Third-party asset tracking
+├── progress1.md              # Historical project status report
+├── progress2.md              # Historical project status report
+├── progress3.md              # Status report template
+├── progress4.md              # Status report template
+└── writeup.md                # Final postmortem template
+```
+
+## Getting Started
+
+1. Install Unity Hub.
+2. Install Unity Editor version `6000.0.44f1`.
+3. Open Unity Hub and add the project at:
+   `/home/runner/work/Forsaken/Forsaken/Forsaken`
+4. Open the project and load a scene from `Assets/Scenes`.
+5. Press **Play** to run locally.
+
+## Build (WebGL)
+
+1. Open **File → Build Profiles** in Unity.
+2. Select **WebGL**.
+3. Build into an output folder (for example, the existing root-level web build files).
+4. Verify output locally before publishing.
+
+## Contributing
+
+- Use short-lived feature branches.
+- Keep commits scoped and descriptive.
+- Open pull requests with a clear summary of gameplay impact.
+- Update documentation when systems or assets change.
+
+## Documentation Index
+
+- `/assets.md` — source and usage tracking for external assets.
+- `/progress1.md` and `/progress2.md` — archived status reports.
+- `/progress3.md` and `/progress4.md` — reusable status report templates.
+- `/writeup.md` — final project postmortem template.
