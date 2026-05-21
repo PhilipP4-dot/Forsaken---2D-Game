@@ -24,10 +24,7 @@ Forsaken is a 2D action-platformer prototype built in Unity. The project explore
 ├── Forsaken/                 # Unity project root
 ├── assets.md                 # Third-party asset tracking
 ├── progress1.md              # Historical project status report
-├── progress2.md              # Historical project status report
-├── progress3.md              # Status report template
-├── progress4.md              # Status report template
-└── writeup.md                # Final postmortem template
+└── progress2.md              # Historical project status report
 ```
 
 ## Getting Started
@@ -57,5 +54,3 @@ Forsaken is a 2D action-platformer prototype built in Unity. The project explore
 
 - `/assets.md` — source and usage tracking for external assets.
 - `/progress1.md` and `/progress2.md` — archived status reports.
-- `/progress3.md` and `/progress4.md` — reusable status report templates.
-- `/writeup.md` — final project postmortem template.
