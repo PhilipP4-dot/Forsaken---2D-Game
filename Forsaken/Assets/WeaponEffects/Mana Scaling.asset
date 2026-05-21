@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57d24cc3805dc457c9687053c984b31b, type: 3}
+  m_Name: Mana Scaling
+  m_EditorClassIdentifier: 
+  effectName: Mana Scale Damage
+  effectDescription: Utilizes all of the players mana to deal Damage
+  damagePerManaPoint: 0.75
+  minimumManaCost: 1

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 799879005445f45f9ba76ba87610839b, type: 3}
+  m_Name: Mini Health Potion
+  m_EditorClassIdentifier: 
+  itemName: Mini Health Potion
+  itemSprite: {fileID: 21300000, guid: 3670584388501415eaa3cb0a63dece67, type: 3}
+  itemDescription: "A tiny vial of suspiciously glowing red juice. Tastes like cherry
+    cough syrup mixed with adrenaline. \nRestores 5 HP and a little bit of hope."
+  statToAffect: 2
+  amountToChangeAttribute: 5
+  dropScaleMultiplier: 2
+  droppedItemPrefab: {fileID: 6940690244198628737, guid: 049a0a865ae454a83a10322bfc0f11c2, type: 3}

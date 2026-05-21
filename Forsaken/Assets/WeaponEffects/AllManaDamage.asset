@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 134dc0200cefb40c2be136b4e6355a54, type: 3}
+  m_Name: AllManaDamage
+  m_EditorClassIdentifier: 
+  effectName: All Mana Damage
+  effectDescription: Utilizes all of the players mana to release 1 burst of damage
+  damagePerManaPoint: 0.5
+  minimumManaCost: 1

@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Ally
+  - Enemy
+  - Wall
+  - Ground
+  - Checkpoint
+  - Chest
+  - Platform
+  - Deadzone
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Enemy
+  - Player
+  - Ally
+  - DeadEnemy
+  - Wall
+  - Chest
+  - Items
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 583226225
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: game object
+    uniqueID: 453259841
+    locked: 0
+  - name: foreground
+    uniqueID: 3199634115
+    locked: 0
+  m_RenderingLayers:
+  - Default
